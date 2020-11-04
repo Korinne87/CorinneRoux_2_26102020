@@ -1,0 +1,197 @@
+/*Définition des polices personnalisées */
+@font-face 
+{
+font-family: 'Raleway';
+src: url('Raleway-Black.ttf'); format('truetype'),
+}
+
+h1, p, ul, h2
+{font-family: 'Raleway', Arial, Serif;
+}
+
+
+/*Definition des styles principaux de la page (largeur du site, fond, couleur par défaut du texte) */
+
+
+
+
+/* En-tête et liens de navigations */
+/*Détais pour les filtres */
+.Filtre
+{
+    border-left: 3PX solid #F2F2F2;
+    border-right: 3px solid #F2F2F2;
+    border-top: 3px solid #F2F2F2;
+    border-bottom: 3px solid #F2F2F2;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.inscription
+{
+    display: inline-block;
+    justify-content: flex-end;
+}
+.hébergement
+{
+    display: inline-block;
+    justify-content: flex-end;
+}
+.activités
+{
+    display: inline-block;
+    justify-content: flex-end;
+}
+
+/* Bannière */
+
+
+
+/* section principale du corps de page, au centre */
+
+#conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+  background-color: white;
+  margin: 5px;
+  padding: 50px;
+}
+
+
+section
+{
+    flex: 2;
+     position: relative;
+    background-color: white;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 50px;
+    padding: 10px;
+    color: black;
+    font-size: 0.9em;
+    padding: 12px;
+}
+
+article
+{
+    position: relative;
+    background-color: #F2F2F2;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 0.9em
+    padding: 12px;
+}
+
+#conteneur1
+{
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#conteneur3
+{
+    background-color: white;
+    display: flex;
+    align-content: center;
+    margin: 12px;
+
+}
+
+#conteneur2
+{
+    border-radius: 10;
+    margin: 5px;
+    background-color: #F2F2F2;
+justify-content: space-between;
+align-content: center;
+
+}
+
+
+
+.colonne
+{
+    display: flex; 
+    flex-direction: row;
+    background-color: white;
+    width: 75%;
+    margin: auto;
+
+}
+
+.hbgt
+{
+background-color: white;
+
+}
+.hbgt2
+{
+    background-color: white;
+    border: 2px #F2F2F2;
+}
+/* pied de page */
+footer
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+}
+
+#a_propos
+{
+    flex-direction: column;
+    text-decoration: none;
+} 
+
+#nos_hebergements
+{
+    flex-direction: column;
+    text-decoration: none;
+}
+
+#assistance
+{
+    flex-direction: column;
+    
+}
+
+#liste_a_propos
+{
+    text-decoration: none;
+
+}
+
+
+
+
+div.photo img
+{
+    width: 120px;
+    height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
