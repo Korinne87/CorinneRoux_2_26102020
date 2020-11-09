@@ -17,17 +17,62 @@ h1, p, ul, h2
 
 /* En-tête et liens de navigations */
 /*Détais pour les filtres */
-.Filtre
+#conteneurfiltre
 {
-    border-left: 3PX solid #F2F2F2;
-    border-right: 3px solid #F2F2F2;
-    border-top: 3px solid #F2F2F2;
-    border-bottom: 3px solid #F2F2F2;
-    border-radius: 50px;
-    display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: middle;
+  margin-top: 30px;
 }
 
+.titrefiltre
+{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 32px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 
+}
+
+.btnfiltre
+{
+  display: flex;
+  height: 48px;
+  border-radius: 25px;
+  border: 2px solid #d7dada;
+  align-items: center;
+  margin-right: 24px;
+  margin-bottom: 20px;
+  transition: transform .3s;
+}
+
+.btnfiltre:hover
+{
+  transform: scale(1.07);
+  background-color: #f2f2f2;
+}
+.nomfiltre
+{
+  margin-right: 16px;
+  margin-left: 16px;
+  font-weight: bold;  
+  font-size: 1.17em;
+}
+
+.iconefiltre
+{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  height: 52px;
+  width: 52px;
+  border-radius: 100%;
+  background-color: #DEEBFF;
+  color: #0065FC;
+  margin: -2px;
+}
 a
 {
     text-decoration: none;
@@ -49,6 +94,24 @@ a
     display: inline-block;
     justify-content: flex-end;
 }
+
+.btn
+ {
+  background-color: #0065fc;
+  font-size: 18px;
+  outline: none;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  max-width: 135px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+
+
+
+
 
 /* Bannière */
 
@@ -91,6 +154,20 @@ article
     padding: 12px;
 }
 
+.fas
+{
+    color: #0065fc;
+}
+
+.fas.fa-star.grey-star
+{
+    color: lightgrey;
+}
+.fas.fa-map-marker-alt
+{
+color: black;
+}
+
 #conteneur1
 {
     background-color: #F2F2F2;
@@ -103,6 +180,7 @@ article
 {
     background-color: white;
     display: flex;
+    flex-direction: row;
     align-content: center;
     margin: 12px;
 
