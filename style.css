@@ -421,17 +421,20 @@ footer
 {
   flex-direction: column;
   text-decoration: none;
+  width: 34%;
 } 
 
 #nos_hebergements
 {
   flex-direction: column;
   text-decoration: none;
+  width: 34%;
 }
 
 #assistance
 {
   flex-direction: column;
+  width: 34%;
 }
 
 #liste_a_propos
