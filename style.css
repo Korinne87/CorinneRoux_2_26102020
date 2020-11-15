@@ -28,16 +28,131 @@ h1, p, ul, h2
 
 nav
 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+  margin: -67px 5% 30px 25%;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+#ancres
+{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display; flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+#ancres a
+{
+  margin-left: 40px;
+}
+
+
+.inscription
+{
+  padding: 30px 0px;
+  color: #0065FC;
+  font-weight: bold;
+  border-width: 2px 0px 0px 0px;
+  
+}
+.hebergement
+{
+  padding: 30px 0px;
+  border-width: 2px 0px 0px 0px;
+  color: #0065fc;
+}
+
+
+
+.activités
+{
+  padding: 30px 0px;
+  border-width: 2px 0px 0px 0px;
+}
+
+
+/*RECHERCHE*/
+#formulaire
+{ display: flex;
+  align-items: center;
+}
+
+.map
+{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 50px;
+    width: 26px;
+    padding: 0px 16px;
+    background-color: #f1f3f3;
+}
+
+.placeholder
+{
+  height: 50px;
+  border: 1px solid #f1f2f3;
+  border-left: 0px;
+  border-right: 0px;
+  padding-left: 15px;
+  font-weight: bold;
+  color: black;
+  opacity: 1;
+}
+
+.btn
+ {
+ height: 50px;
+    background-color: #0065FC;
+    color: white;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 0px;
+    padding: 17px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+.fas.fa-map-marker-alt
+{
+  color: black;
+  display: inline-block;
 }
 
 
 
 
+.searchicon
+  {
+    display: none;
+  }
 
 
+
+/*FILTRES*/
 #conteneurfiltre
 {
   display: flex;
@@ -94,72 +209,16 @@ nav
   color: #0065FC;
   margin: -2px;
 }
-a
-{
-  text-decoration: none;
-  color: black;
-}
 
-.inscription
+/*info*/
+.fas.fa-info-circle
 {
-  display: inline-block;
-  justify-content: flex-end;
-  width: 162px;
-  padding-top: 30px;
+  width: 8px;
+  height: 8px;
+  background-color: white;
   color: #0065FC;
-  font-weight: bold;
-  margin: auto;
-  margin-top: 0px;
-  text-align: center;
-  border-top: 2px solid transparent;
+  
 }
-.hébergement
-{
-  display: inline-block;
-  justify-content: flex-end;
-  width: 162px;
-  padding-top: 30px;
-  margin: auto;
-  margin-top: 0px;
-  text-align: center;
-  border-top: 2px solid transparent;
-}
-
-
-
-.activités
-{
-  display: inline-block;
-  justify-content: flex-end;
-  width: 162px;
-  padding-top: 30px;
-  margin: auto;
-  margin-top: 0px;
-  text-align: center;
-  border-top: 2px solid transparent;
-}
-
-.btn
- {
-  background-color: #0065fc;
-  font-size: 18px;
-  outline: none;
-  color: white;
-  padding: 14px 20px;
-  border: none;
-  cursor: pointer;
-  max-width: 135px;
-  border-radius: 0px 20px 20px 0px;
-}
-
-
-
-
-
-
-/* Bannière */
-
-
 
 /* section principale du corps de page, au centre */
 
@@ -175,10 +234,6 @@ a
 .fas.fa-star.grey-star
 {
   color: #d9d9d9;
-}
-.fas.fa-map-marker-alt
-{
-  color: black;
 }
 
 
