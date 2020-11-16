@@ -230,24 +230,48 @@ a
 }
 
 /*info*/
-.fas.fa-info-circle
+.fas.fa-info
 {
-  width: 8px;
-  height: 8px;
-  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 1px solid #d9d9d9;
   color: #0065FC;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.info
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  margin-right: 12px;
+}
+
+#nbrelogt
+{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
 
 /* section principale du corps de page, au centre */
 
 
-
-
-
-.fas
+.fas.fa-search
 {
-  color: #0065fc;
+  color: #0065FC;
+}
+
+.fas.fa-star
+{
+  color: #0065FC;
 }
 
 .fas.fa-star.grey-star
