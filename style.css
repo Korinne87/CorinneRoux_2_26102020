@@ -7,12 +7,17 @@
 
 h1, p, ul, h2
 {
-  font-family: "Raleway", Arial, Serif;
+  font-family: "Raleway", Arial, San-Serif;
 }
 
 
 /*Definition des styles principaux de la page (largeur du site, fond, couleur par défaut du texte) */
-
+body
+{
+  font-family: "Raleway", Arial, San-Serif;
+  width: 100%;
+  margin: auto;
+}
 
 
 
@@ -24,6 +29,7 @@ h1, p, ul, h2
   flex-direction: row;
   align-content: flex-start;
   margin-left: 1rem;
+  padding-top: 40px;
 }
 
 nav
@@ -74,23 +80,36 @@ a
   color: #0065FC;
   font-weight: bold;
   border-width: 2px 0px 0px 0px;
-  
 }
+.inscription:hover
+{
+  border-style: solid;
+  margin-top: -2px;
+}
+
 .hebergement
 {
   padding: 30px 0px;
   border-width: 2px 0px 0px 0px;
   color: #0065fc;
 }
+.hebergement:hover
+{
+  border-style: solid;
+  margin-top: -2px;
+}
 
 
-
-.activités
+.activites
 {
   padding: 30px 0px;
   border-width: 2px 0px 0px 0px;
 }
-
+.activites:hover
+{
+  border-style: solid;
+  margin-top: -2px;
+}
 
 /*RECHERCHE*/
 #formulaire
