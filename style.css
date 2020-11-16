@@ -187,7 +187,7 @@ a
   text-align: center;
   margin-right: 32px;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: -18px;
 
 }
 
@@ -407,7 +407,7 @@ margin-right: 40px;
 }
 .fa-chart-line
 {
-  padding-top: 20px;
+  padding-top: 30px;
   color: black;
 }
 #hbgtcolonne
