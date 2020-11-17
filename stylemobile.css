@@ -1,0 +1,142 @@
+/*MOBILE*/
+@media screen and (max-width: 768px)
+{
+body
+{
+	width: 110%;
+}
+#recherche
+{
+	width: 95%;
+	margin: auto;
+}
+
+#formulaire
+{
+	margin-right: 30px;
+}
+.placeholder
+{
+	margin-right:-15px;
+	flex: 1;
+	display: flex;
+}
+
+.block
+{
+	display: flex;
+	flex: 1;
+}
+
+.textsearch
+{
+	display: none;
+}
+
+.fas.fa-search
+{
+	color: white;
+}
+
+.searchicon
+{
+	display: block;
+}
+.btn
+{
+	border-radius: 15px;
+}
+.titrefiltre
+{
+	width: 100%;
+	padding-bottom: 15px;
+	padding-top: 60px;
+}
+#conteneurfiltre
+{
+	width: 95%;
+	margin: auto;
+}
+#nbrelogt
+{
+	margin-left: -20px;
+	margin-right: 13px;
+}
+
+.info
+{
+	margin-bottom: 15px;
+}
+#conteneur
+{
+	flex-direction: column-reverse;
+	margin-left: 1px;
+	margin-right: 0px;
+}
+#conteneur1
+{
+	width: 100%;
+	background-color: #FFFFFF;
+}
+#hebergement
+{
+	width: 100%;
+	margin-left: auto;
+
+}
+.lienhebergement
+{
+	width: 100%;
+	margin: auto;
+	background-color: white;
+}
+#conteneur2
+{
+	width: 100%;
+	margin-bottom: 40px;
+	border-radius: 0px;
+}
+#titrepopulaire
+{
+	width: 95%;
+	margin: auto;
+}
+#hbgtcolonne
+{
+	width: 95%;
+	margin: auto;
+}
+#activites
+{
+	width: 95%;
+	margin: auto;
+}
+#conteneur3
+{
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+.activcol
+{
+	width: 100%;
+	height: auto;
+}
+.lienactivite
+{
+	height: 190px;
+	margin-bottom: 30px;
+}
+.vertical
+{
+	height: 134px;
+}
+.horizontal1
+{
+	height: 134px;
+}
+.horizontal2
+{
+	height: 134px;
+}
+
+}
