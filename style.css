@@ -17,6 +17,7 @@ body
   font-family: "Raleway", Arial, San-Serif;
   width: 100%;
   margin: auto;
+  max-width: 1440px;
 }
 
 
@@ -311,7 +312,7 @@ a
   background-color: #F2F2F2;
   border-radius: 18px;
   margin-right: 40px;
-  width: 65.7%;
+  width: 68%;
 }
 .hbgt
 {
@@ -401,6 +402,7 @@ margin-right: 40px;
   border-radius: 16px;
   margin: 5px;
   background-color: #F2F2F2;
+  width: 32%;
 }
 
 #titrepopulaire
@@ -453,7 +455,7 @@ margin-right: 40px;
   height: 100%;
   border-bottom-left-radius: 16px;
   border-top-left-radius: 16px;
-  margin-right: 21%;
+  margin-right: 12px;
   object-fit: cover;
 }
 
@@ -574,6 +576,7 @@ footer
   flex-direction: column;
   text-decoration: none;
   width: 34%;
+  margin-left: 50px;
 } 
 
 #nos_hebergements
