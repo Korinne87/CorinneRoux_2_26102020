@@ -1,6 +1,24 @@
 /*MOBILE*/
 @media screen and (max-width: 768px)
 {
+
+.logo
+{
+	margin-left: 10px;
+}
+#ancres 
+{
+
+
+}
+.inscription:hover
+{
+  border-style: solid;
+  margin-bottom: -2px;
+  margin-top: none;
+}
+
+
 body
 {
 	width: 110%;

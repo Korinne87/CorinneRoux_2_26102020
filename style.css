@@ -325,12 +325,14 @@ a
   min-width: 246px;
   margin-bottom: 30px;
   box-sizing: border-box;
+  transform: scale(1);
+  transition: 400ms;
  }
 
 .hbgt:hover
 {
-  transform: scale(1);
-  transition: 400ms;
+  transform: scale(1.05);
+  
 }
 #hebergt
 {
@@ -446,6 +448,13 @@ margin-right: 40px;
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
   height: 144px;
   box-sizing: border-box;
+  transform: scale(1);
+  transition: 400ms;
+ }
+
+.hbgtcolonne:hover
+{
+  transform: scale(1.05);
   
 }
 
@@ -507,6 +516,14 @@ margin-right: 40px;
   justify-content: space-between;
   width: 22.5%;
   height: 445px;
+  transform: scale(1);
+  transition: 400ms;
+ }
+
+.activcol:hover
+{
+  transform: scale(1.05);
+  
 }
 
 .lienactivite
