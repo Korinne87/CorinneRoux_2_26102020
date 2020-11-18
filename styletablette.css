@@ -1,0 +1,33 @@
+@media screen and (min-width: 769px) and (max-width: 991px)
+{
+#conteneur
+{
+	flex-direction: column-reverse;
+}
+#conteneur1
+{
+	width: 100%;
+	margin-top: 30px;
+}
+#conteneur2
+{
+	width: 100%;
+	margin: auto;
+}
+#conteneur3
+{
+	width: 100%;
+	margin: auto;
+}
+#conteneurfiltre
+{
+	width: 70%;
+
+}
+footer
+{
+	width: 100%;
+	margin-top: 30px;
+
+}
+}
