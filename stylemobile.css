@@ -138,5 +138,29 @@ body
 {
 	height: 134px;
 }
+footer
+{
+	flex-direction: column;
+}
+#a_propos
+{
+	margin-left: 15px;
+	width: 100%;
+	margin-top: 30px;
+}
+#nos_hebergements
+{
+	margin-left: 15px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+#assistance
+{
+	margin-left: 15px;
+	width:100%;
+	margin-bottom: 30px;
+	margin-top: 5px;
+}
 
 }
