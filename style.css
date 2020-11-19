@@ -500,39 +500,85 @@ margin-right: 40px;
   width: 100%;
   margin-bottom: 61px;
 }
+.titreactivite
+{
+  margin-top: 30px;
+  margin-left: 25px;
+}
 .nomactiv
 {
   margin-left: 12px;
-  margin-top: 8px;
+  vertical-align: center;
  } 
 
-.activcol
+.activcol1
 {
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 22.5%;
-  height: 445px;
-  transform: scale(1);
-  transition: 400ms;
- }
+  height: 460px;
+}
 
-.activcol:hover
+.activcol1:hover
 {
   transform: scale(1.05);
   
 }
-
-.lienactivite
+.activcol2
+{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 22.5%;
+}
+.lienactivite1
 {
   display: block;
   border-radius: 16px;
   box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
   width: 100%;
   margin-bottom: 0px;
+  height: 453px;
+  transform: scale(1);
+  transition: 400ms;
+}
+.lienactivite1: hover
+{
+  transform: scale(1.05);
+}
+.lienactivite2
+{
+  border-radius: 16px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  margin-bottom: 0px;
+  height: 161px;
+  transform: scale(1);
+  transition: 400ms;
+  margin-bottom: 10px;  
+}
+.lienactivite2:hover
+{
+  transform: scale(1.05);
 }
 
+.lienactivite3
+{
+  border-radius: 16px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  margin-bottom: 10px;
+  height: 232px;
+  transform: scale(1);
+  transition: 400ms;
+}
+.lienactivite3:hover
+{
+  transform: scale(1.05);
+}
 .vertical
 {
   height: 390px;
@@ -559,12 +605,6 @@ margin-right: 40px;
   border-top-left-radius: 16px;
   height: 110px;
 
-}
-.titreactivite
-{
-  display: block;
-  margin: 20px;
-  height: 56px;
 }
 
 div.photo img
