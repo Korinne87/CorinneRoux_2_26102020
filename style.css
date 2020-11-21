@@ -12,19 +12,14 @@ h1, p, ul, h2
 
 
 /*Definition des styles principaux de la page (largeur du site, fond, couleur par défaut du texte) */
-body
+#bloc_page
 {
   font-family: "Raleway", Arial, San-Serif;
-  width: 100%;
   margin: auto;
   max-width: 1440px;
-  min-width: 992px;
 }
 
-
-
 /* En-tête et liens de navigations */
-/*Détais pour les filtres */
 .logo
 {
   display: inline-flex;
@@ -37,10 +32,7 @@ body
 nav
 { 
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap-reverse;
-  margin: -67px 5% 30px 25%;
+   margin: -67px 5% 30px 25%;
 }
 
 a
@@ -276,6 +268,7 @@ a
 
 
 /*HEBERGEMENTS A MARSEILLE*/
+
 #hebergement
 {
   display: flex;
@@ -294,32 +287,17 @@ a
 }
 
 
+
+
 #conteneur1
 {
-  display: flex;
-  flex-wrap: wrap;
   background-color: #F2F2F2;
   border-radius: 18px;
   margin-right: 40px;
   width: 68%;
 }
-.hbgt
-{
-  background-color: white;
-  border: 5px solid white;
-  border-radius: 16px;
-  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
-  width: 100%;
-  min-width: 246px;
-  margin-bottom: 30px;
-  box-sizing: border-box;
-  transform: scale(1);
-  transition: 400ms;
-  margin-right: 15px;
-  margin-left: 10px;
- }
 
-.hbgt:hover
+.lienhebergement:hover
 {
   transform: scale(1.05);
   
@@ -332,16 +310,20 @@ a
   justify-content: space-between;
   margin-left: 40px;
   margin-right: 40px;
+
 }
 
 .lienhebergement
 {
-  display: flex;
-  justify-content: space-between;
-  width: 28%;
-  min-width: 256px;
-  margin-right: -20px;
-  margin-left: -20px;
+  width: 240px;
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 16px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  transform: scale(1);
+  transition: 400ms;
  }
 
 
@@ -381,9 +363,8 @@ margin-right: 40px;
 
 /*LES PLUS POPULAIRES*/
 #conteneur2
-{
-  display: flex;
-  flex-direction: column;
+{ 
+  flex: auto;
   border-radius: 16px;
   margin: 5px;
   background-color: #F2F2F2;
@@ -444,9 +425,7 @@ margin-right: 40px;
 }
 .descriptionpop
 {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
+ flex: auto;
   margin-left: 10px;
 }
 .photopop
@@ -456,7 +435,6 @@ margin-right: 40px;
   border-bottom-left-radius: 16px;
   border-top-left-radius: 16px;
   margin-right: 12px;
-  display: flex;
   object-fit: cover;
 }
 
@@ -607,11 +585,7 @@ margin-right: 40px;
 
 }
 
-div.photo img
-{
-  width: 120px;
-  height: 60px;
-}
+
 
 
 

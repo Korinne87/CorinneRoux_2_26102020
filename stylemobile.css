@@ -1,7 +1,10 @@
 /*MOBILE*/
 @media screen and (max-width: 768px)
 {
-
+#bloc_page
+{
+	width: 100%;
+}
 .logo
 {
 	margin-left: 10px;
@@ -21,7 +24,10 @@ justify-content: center;
 nav
 {	
 	display: flex;	
-	max-width: 100%;
+
+	justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap-reverse;max-width: 100%;
 	margin-left: 0px;
 	margin-right: 0px;
 }
@@ -59,13 +65,13 @@ nav
 .inscription:hover
 {
   border-style: solid;
-  margin-bottom: -2px;
+
 }
 
 
 body
 {
-	width: 110%;
+	width: 100%;
 }
 #recherche
 {
@@ -118,11 +124,20 @@ body
 {
 	width: 95%;
 	margin: auto;
+	flex-direction: column;
+}
+.btnfiltre
+{	
+	flex-direction: row;
+	width: 70%;
+
+
 }
 #nbrelogt
 {
-	margin-left: -20px;
-	margin-right: 13px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
 }
 
 .info
@@ -143,13 +158,12 @@ body
 #hebergement
 {
 	width: 100%;
-	margin-left: auto;
 
 }
 .lienhebergement
 {
-	width: 100%;
 	margin: auto;
+	width: 100%;
 	background-color: white;
 }
 #conteneur2
@@ -165,8 +179,7 @@ body
 }
 #hbgtcolonne
 {
-	width: 95%;
-	margin: auto;
+	flex: auto;
 }
 #activites
 {
@@ -178,27 +191,49 @@ body
 	flex-direction: column;
 	margin-bottom: 50px;
 }
-.activcol
-{
-	width: 100%;
-	height: auto;
-}
-.lienactivite
+.activcol1
 {
 	height: 190px;
-	margin-bottom: 30px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.activcol2
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.lienactivite1
+{
+	height: 190px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.lienactivite2
+{
+	width: 100%;
+	flex-direction: row;
+	height: 190px;
+	margin-top: 20px;
+}
+.lienactivite3
+{
+	width: 100%;
+	height: 190px;
 }
 .vertical
 {
 	height: 134px;
+	width: 100%;
 }
 .horizontal1
 {
 	height: 134px;
+	width: 100%;
 }
 .horizontal2
 {
 	height: 134px;
+	width: 100%;
 }
 footer
 {
