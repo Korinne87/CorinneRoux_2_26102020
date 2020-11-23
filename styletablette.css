@@ -40,7 +40,7 @@ footer
 
 @media screen and (min-width: 992px) and (max-width: 1350px)
 {
-	#conteneur
+#conteneur
 {
 	flex-direction: column-reverse;
 }
@@ -49,10 +49,22 @@ footer
 	width: 100%;
 	margin-top: 30px;
 }
+
+.lienhebergement
+{
+	justify-content: space-around;
+}
+
 #conteneur2
 {
-	width: 80%;
+	width: 100%;
 	margin: auto;
+}
+
+#hbgtcolonne
+{
+	flex-direction: row;
+	justify-content: space-around;
 }
 #conteneur3
 {

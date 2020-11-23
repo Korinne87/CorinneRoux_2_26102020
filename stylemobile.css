@@ -135,29 +135,43 @@ order: 3;
 .info
 {
 	margin-bottom: 15px;
-	margin-left: 10px;
+	margin-left: 0px;
 }
 #conteneur
 {
 	flex-direction: column-reverse;
-	margin-left: 1px;
+	margin-left: 0px;
 	margin-right: 0px;
 }
 #conteneur1
 {
 	width: 100%;
-	background-color: #FFFFFF;
+	background-color: white;
 }
 #hebergement
 {
 	width: 100%;
-
+	margin-bottom: 0px;
+}
+#hebergt
+{
+	background-color: white;
+	width: 95%;
+	margin-left: 5px;
+}
+.titrehebergement
+{
+	margin-left: 5px;
 }
 .lienhebergement
 {
-	margin: auto;
+	margin: 10px, 0px, 0px, 0px;
 	width: 100%;
 	background-color: white;
+}
+.Afficherplus
+{
+	margin-left: 5px;
 }
 #conteneur2
 {
@@ -176,13 +190,20 @@ order: 3;
 }
 #activites
 {
-	width: 95%;
-	margin: auto;
+	width: 100%;
+	margin: 0px, 0px, 20px, 0px;  
 }
+
 #conteneur3
 {
 	flex-direction: column;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.titreactivite
+{
+	margin-left: 0px;
 }
 .activcol1
 {
@@ -231,6 +252,7 @@ order: 3;
 footer
 {
 	flex-direction: column;
+	width: 430px;
 }
 #a_propos
 {
@@ -248,7 +270,7 @@ footer
 #assistance
 {
 	margin-left: 15px;
-	width:100%;
+	width: 100%;
 	margin-bottom: 30px;
 	margin-top: 5px;
 }
