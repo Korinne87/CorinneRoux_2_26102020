@@ -1,43 +1,38 @@
 /*MOBILE*/
 @media screen and (max-width: 768px)
 {
-#bloc_page
+
+main
 {
-	width: 100%;
+	width: 375px;
 }
-.logo
+section
 {
-	margin-left: 10px;
+	margin: 0px;
+}
+header
+{
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+figure
+{
+	margin-left: 20px;
+	padding-top: 20px;
+	float: left;
 }
 #ancres 
 {
-margin-right: 0px;
-padding: 0px;
-width: 100%;
-display: flex;
-justify-content: center;
+order: 3;
 }
-#ancres a
-{
-	margin-left: 0px;
-}
-nav
-{	
-	display: flex;	
 
-	justify-content: space-between;
-   align-items: center;
-   flex-wrap: wrap-reverse;max-width: 100%;
-	margin-left: 0px;
-	margin-right: 0px;
-}
 .activites
 {
-	width: 50%;
-	padding: 30px 40% 30px 10%;
-	border-width: 0px 0px 3px 0px;
 	border-color: #F2F2F2;
 	border-style: solid;
+	border-width: 0px 0px 3px 0px;
+	text-align: left;
 }
 
 .activites:hover
@@ -46,11 +41,11 @@ nav
 }
 .hebergement
 {
-	width: 50%;
-	padding: 30px 10% 30px 40%;
+	
 	border-width: 0px 0px 3px 0px;
 	border-style: solid;
 	border-color: #0065fc;
+	margin-right: 0;
 }
 .hebergement:hover
 {
@@ -59,25 +54,20 @@ nav
 
 .inscription
 {
-	margin-left: 80%;
+	margin-right: 20px;
+	padding-top: 40px;
 }
-
 .inscription:hover
 {
   border-style: solid;
 
 }
 
-
-body
-{
-	width: 100%;
-}
 #recherche
 {
-	width: 95%;
-	margin: auto;
+	margin-left: 20px;
 }
+
 
 #formulaire
 {
@@ -117,21 +107,23 @@ body
 .titrefiltre
 {
 	width: 100%;
-	padding-bottom: 15px;
-	padding-top: 60px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 #conteneurfiltre
 {
-	width: 95%;
-	margin: auto;
 	flex-direction: column;
+}
+.filtres
+{
+	width: 375px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: 0px;
 }
 .btnfiltre
 {	
-	flex-direction: row;
-	width: 70%;
-
-
+	margin-left: 10px;
 }
 #nbrelogt
 {
@@ -143,6 +135,7 @@ body
 .info
 {
 	margin-bottom: 15px;
+	margin-left: 10px;
 }
 #conteneur
 {

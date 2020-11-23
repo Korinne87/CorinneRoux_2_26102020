@@ -9,21 +9,22 @@
 		<link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1350px)" href="styletablette.css" />
 		<script src="https://kit.fontawesome.com/a799f61984.js" crossorigin="anonymous"></script>
 	</head>
-	<body>
-		<id="bloc_page">
+	<main>
+		
 
 			<!--HEADER-->
 			<header>
-					<div class="logo">
+					<figure>
 						<img src="images/logo/Reservia.png" alt="logo Reservia" />
+					</figure>
+			
+					<div id="ancres">
+						<a class="hebergement" href="#hebergement">Hébergements</a>
+						<a class="activites" href="#activites">Activités</a>
 					</div>
-					<nav>
-						<div id="ancres">
-							<a class="hebergement" href="#hebergement">Hébergements</a>
-							<a class="activites" href="#activites">Activités</a>
-						</div>	
+					<div>	
 						<a class="inscription" href="S'inscrire.html">S'inscrire</a>
-					</nav>
+					</div>
 			</header>
 
 
@@ -39,37 +40,42 @@
 						 <input type="search" name="recherche" placeholder="Marseille, France" class="placeholder"><button type="submit" name="button" class="btn"><span class="textsearch">Rechercher</span><i class="fas fa-search searchicon"></i></button>
 					</form>
 				</div>			
-			</section>
+			
 
 			<!--FILTRES-->
 
-			<section>
+			
 				<div id="conteneurfiltre">
 					<h2 class="titrefiltre">Filtres</h2>
-					<div class="btnfiltre">
-						<div class="iconefiltre">
-							<i class="fas fa-money-bill-wave fas-bouton"></i>
+					<div class="filtres">
+						<div class="btnfiltre">
+							<div class="iconefiltre">
+								<i class="fas fa-money-bill-wave fas-bouton"></i>
+							</div>	
+							<p><a href="#">Economique</a></p>	
 						</div>
-						<p class="nomfiltre">Economique</p>
-					</div>
-					<div class="btnfiltre">
-						<div class="iconefiltre">
-							<i class="fas fa-child fas-bouton"></i>
+											
+						<div class="btnfiltre">
+							<div class="iconefiltre">
+								<i class="fas fa-child fas-bouton"></i>
+							</div>
+								<p><a href="#">Familial</a></p>
 						</div>
-						<p class="nomfiltre">Familial</p>
-					</div>
-					<div class="btnfiltre">
-						<div class="iconefiltre">
-							<i class="fas fa-heart fas-bouton"></i>
+
+						<div class="btnfiltre">
+							<div class="iconefiltre">
+								<i class="fas fa-heart fas-bouton"></i>
+							</div>
+							<p><a href="#">Romantique</a></p>
 						</div>
-						<p class="nomfiltre">Romantique</p>
-					</div>
-					<div class="btnfiltre">
-						<div class="iconefiltre">
-							<i class="fas fa-dog fas-bouton"></i>
+
+						<div class="btnfiltre">
+							<div class="iconefiltre">
+								<i class="fas fa-dog fas-bouton"></i>
+							</div>
+							<p><a href="#">Animaux autorisés</a></p>
 						</div>
-						<p class="nomfiltre">Animaux autorisés</p>
-					</div>
+					</div>	
 				</div>
 				<div id=nbrelogt>
 					<div class="info">
@@ -297,6 +303,6 @@
 					</div>
 				</div>
 			</footer>
-		</div>	
-	</body>
+		
+	</main>
 </html>
