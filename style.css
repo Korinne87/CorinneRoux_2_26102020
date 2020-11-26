@@ -7,10 +7,6 @@
 
 
 
-
-/*Definition des styles principaux de la page (largeur du site, fond, couleur par défaut du texte) */
-
-
 /* En-tête et liens de navigations */
 main
 {
@@ -50,7 +46,7 @@ figure
 
 .inscription
 {
-  padding: 50px 0px;
+  padding: 60px 0px;
   color: #0065FC;
   font-weight: bold;
   float: right;
@@ -60,15 +56,14 @@ figure
 .inscription:hover
 {
   border-style: solid;
-  margin-top: -2px;
 }
 
 .hebergement
 {
   margin-right: 70px;
-  padding: 50px 0px;
+  width: 180px;
+  padding: 60px 0px;
   color: #0065fc;
-  width: 187px;
   text-align: center;
   vertical-align: bottom;
   text-decoration: none;
@@ -84,9 +79,9 @@ figure
 
 .activites
 {
-  padding: 50px;
+  padding: 60px;
+  width: 180px;
   border-width: 2px 0px 0px 0px;
-  width: 187px;
   text-align: center;
   text-decoration: none;
   color: black;
@@ -149,7 +144,10 @@ figure
   display: inline-block;
 }
 
-
+.fas.fa-search
+{
+  color: #0065FC;
+}
 
 
 .searchicon
@@ -160,6 +158,8 @@ figure
 
 
 /*FILTRES*/
+
+
 #conteneurfiltre
 {
   display: flex;
@@ -258,26 +258,6 @@ figure
 }
 
 
-
-/* section principale du corps de page, au centre */
-
-
-.fas.fa-search
-{
-  color: #0065FC;
-}
-
-.fas.fa-star
-{
-  color: #0065FC;
-}
-
-.fas.fa-star.grey-star
-{
-  color: #d9d9d9;
-}
-
-
 /*HEBERGEMENTS A MARSEILLE*/
 
 #hebergement
@@ -296,6 +276,15 @@ figure
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 50px;
+}
+.fas.fa-star
+{
+  color: #0065FC;
+}
+
+.fas.fa-star.grey-star
+{
+  color: #d9d9d9;
 }
 
 
@@ -477,10 +466,9 @@ margin-right: 40px;
   flex-direction: row;
   margin-left: 5px;
 }
+
+
 /*ACTIVITES A MARSEILLE*/
-
-
-
 
 #conteneur3
 {
@@ -534,7 +522,7 @@ margin-right: 40px;
   transform: scale(1);
   transition: 400ms;
 }
-.lienactivite1: hover
+.lienactivite1:hover
 {
   transform: scale(1.05);
 }
@@ -595,11 +583,6 @@ margin-right: 40px;
   height: 110px;
 
 }
-
-
-
-
-
 
 
 /* pied de page */
