@@ -60,8 +60,7 @@ figure
 
 .hebergement
 {
-  margin-right: 70px;
-  width: 180px;
+  padding-right: 10px;
   padding: 60px 0px;
   color: #0065fc;
   text-align: center;
@@ -80,7 +79,7 @@ figure
 .activites
 {
   padding: 60px;
-  width: 180px;
+  padding-right: 10px;
   border-width: 2px 0px 0px 0px;
   text-align: center;
   text-decoration: none;
