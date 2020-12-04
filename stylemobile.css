@@ -1,12 +1,18 @@
 /*MOBILE*/
 @media screen and (max-width: 768px)
 {
-
-main
+html{
+overflow-x: hidden;
+}
+body
 {
-	width: 400px;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+main{
 	max-width: 100%;
-	display: -moz-box;
+	overflow-x: hidden;
 }
 section
 {
@@ -146,12 +152,15 @@ order: 1;
 	flex-direction: column-reverse;
 	margin-left: 0px;
 	margin-right: 0px;
+	
 }
 #conteneur1
 {
-	width: 100%;
+	width: 86%;
 	background-color: white;
+	margin-left: 8px;
 }
+
 #hebergement
 {
 	width: 100%;
@@ -179,13 +188,13 @@ order: 1;
 }
 #conteneur2
 {
-	width: 100%;
+	width: 95%;
 	margin-bottom: 40px;
 	border-radius: 0px;
 }
 #titrepopulaire
 {
-	width: 95%;
+	width: 85%;
 	margin: auto;
 }
 #hbgtcolonne
@@ -194,8 +203,8 @@ order: 1;
 }
 #activites
 {
-	width: 400px;
-	margin: 0px 0px 20px 5px;  
+	width: 90%;
+	margin: 0px 0px 20px 10px;  
 }
 
 #conteneur3
@@ -256,7 +265,7 @@ order: 1;
 footer
 {
 	flex-direction: column;
-	width: 430px;
+	width: 100%;
 }
 #a_propos
 {

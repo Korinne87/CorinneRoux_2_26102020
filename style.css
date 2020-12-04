@@ -8,10 +8,9 @@
 
 
 /* En-tête et liens de navigations */
-main
+body
 {
   width: 1440px;
-  max-width: 100%;
   margin: 0 auto;
   font-family: "Raleway", Arial, San-Serif;
 }
