@@ -11,6 +11,7 @@
 main
 {
   width: 1440px;
+  max-width: 100%;
   margin: 0 auto;
   font-family: "Raleway", Arial, San-Serif;
 }
@@ -180,7 +181,6 @@ figure
 .filtres
 {
   display: flex;
-  
 }
 
 .btnfiltre:hover
@@ -404,7 +404,7 @@ margin-right: 40px;
 
 .hbgtcolonne
 {
-  display: flex; 
+  display: flex;
   flex-direction: row;
   background-color: #FFFFFF;
   width: 100%;

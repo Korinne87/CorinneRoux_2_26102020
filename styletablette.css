@@ -3,6 +3,11 @@
 
 @media screen and (min-width: 769px) and (max-width: 991px)
 {
+main{
+	max-width: 100%;
+}
+
+
 #conteneur
 {
 	flex-direction: column-reverse;
@@ -24,7 +29,7 @@
 }
 #conteneurfiltre
 {
-	width: 70%;
+	max-width: 100%;
 
 }
 footer
