@@ -3,16 +3,21 @@
 
 @media screen and (min-width: 769px) and (max-width: 991px)
 {
+
+html{
+	overflow-x: hidden;
+		}
 main{
 	max-width: 100%;
 	overflow-x: hidden;
 }
 body{
-	max-width: 100%;
-	overflow-x: hidden;
+	width: auto;
 }
 
-
+img{
+	height: auto;
+	  }
 #conteneur
 {
 	flex-direction: column-reverse;
@@ -32,6 +37,8 @@ body{
 	width: 100%;
 	margin: auto;
 }
+
+
 #conteneurfiltre
 {
 	max-width: 100%;

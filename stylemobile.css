@@ -4,9 +4,13 @@
 html{
 overflow-x: hidden;
 }
+
+img{
+	height: auto;
+  }
 body
 {
-	width: 100%;
+	width: auto;
 	overflow-x: hidden;
 }
 
@@ -75,6 +79,7 @@ order: 1;
 
 #recherche
 {
+	width: 90%;
 	margin-left: 20px;
 }
 

@@ -8,10 +8,13 @@
 
 
 /* En-tête et liens de navigations */
+html{
+	overflow-x: hidden;
+		}
+
 body
 {
-  width: 1440px;
-  margin: 0 auto;
+    margin: 0 auto;
   font-family: "Raleway", Arial, San-Serif;
 }
 section
@@ -23,6 +26,10 @@ a
 {
   text-decoration: none;
   color: black;
+}
+
+img{
+  height: auto;
 }
 header
 {
@@ -425,7 +432,7 @@ margin-right: 40px;
 .descriptionpop
 {
  flex: auto;
-  margin-left: 10px;
+  
 }
 .photopop
 {
@@ -433,7 +440,6 @@ margin-right: 40px;
   height: 100%;
   border-bottom-left-radius: 16px;
   border-top-left-radius: 16px;
-  margin-right: 12px;
   object-fit: cover;
 }
 
