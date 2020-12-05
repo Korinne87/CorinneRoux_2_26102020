@@ -57,6 +57,19 @@ footer
 
 @media screen and (min-width: 992px) and (max-width: 1350px)
 {
+html{
+	overflow-x: hidden;
+	}
+
+main{
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+body{
+		width: auto;
+	}
+	
+
 #conteneur
 {
 	flex-direction: column-reverse;
