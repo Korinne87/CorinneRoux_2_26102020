@@ -42,7 +42,10 @@ img{
 #conteneurfiltre
 {
 	max-width: 100%;
-
+	flex-direction: column;
+}
+.filtres{
+	flex-direction: column;
 }
 footer
 {
